@@ -19,6 +19,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Encode and Push
         run: |
+          sort -o nodes.txt nodes.txt
           cat nodes.txt | base64 > subscribe.txt
           git config user.name github-actions
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
