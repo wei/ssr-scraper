@@ -2,7 +2,7 @@ name: SSR Scraper
 on:
   push:
   schedule:
-    - cron:  '0 12 * * *'
+    - cron:  '52 11 * * *'
 
 jobs:
   ssr-scraper:
@@ -22,6 +22,6 @@ jobs:
           cat nodes.txt | base64 > subscribe.txt
           git config user.name github-actions
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add nodes.txt subscribe.txt
+          git add nodes.txt subscribe.txt stats.json
           git commit -m "Updated: $(date -u +"%D %T %Z")" --allow-empty
           git push origin HEAD:master
