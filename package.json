@@ -1,0 +1,27 @@
+{
+  "name": "ssr-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wei/ssr-scraper.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wei/ssr-scraper/issues"
+  },
+  "homepage": "https://github.com/wei/ssr-scraper#readme",
+  "dependencies": {
+    "@octokit/core": "^3.1.2",
+    "@octokit/plugin-paginate-rest": "^2.3.0",
+    "@octokit/plugin-retry": "^3.0.3",
+    "@octokit/plugin-throttling": "^3.3.0",
+    "is-port-reachable": "^3.0.0",
+    "neek": "^1.1.2",
+    "node-fetch": "^2.6.0"
+  }
+}
