@@ -17,7 +17,7 @@
   "homepage": "https://github.com/wei/ssr-scraper#readme",
   "dependencies": {
     "@octokit/core": "^3.1.2",
-    "@octokit/plugin-paginate-rest": "^2.3.0",
+    "@octokit/plugin-paginate-rest": "^2.3.1",
     "@octokit/plugin-retry": "^3.0.3",
     "@octokit/plugin-throttling": "^3.3.0",
     "is-port-reachable": "^3.0.0",
