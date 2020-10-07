@@ -1,1 +1,1 @@
-{"total":{"ss":283,"ssr":7194,"trojan":64,"vmess":671,"snell":15},"reachable":{"ss":35,"ssr":1366,"trojan":42,"vmess":316},"totalCount":8227,"reachableCount":1759}
+{"total":{"ss":283,"ssr":7182,"vmess":671,"trojan":64,"snell":15},"reachable":{"ss":35,"ssr":1332,"vmess":312,"trojan":47},"totalCount":8215,"reachableCount":1726}
